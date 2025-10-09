@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 210 100% 97%;
+    --background: 340 100% 96%;
     --foreground: 221 39% 11%;
 
     --card: 0 0% 100%;
@@ -23,7 +23,7 @@ All colors MUST be HSL.
     --secondary: 25 95% 53%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96%;
+    --muted: 340 60% 94%;
     --muted-foreground: 215 16% 47%;
 
     --accent: 258 90% 66%;
@@ -35,8 +35,8 @@ All colors MUST be HSL.
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
+    --border: 340 40% 90%;
+    --input: 340 40% 90%;
     --ring: 221 83% 53%;
 
     --radius: 0.75rem;
@@ -48,15 +48,15 @@ All colors MUST be HSL.
     --gradient-mesh: radial-gradient(at 0% 0%, hsl(221 83% 53% / 0.15) 0px, transparent 50%),
                       radial-gradient(at 100% 0%, hsl(258 90% 66% / 0.2) 0px, transparent 50%),
                       radial-gradient(at 100% 100%, hsl(25 95% 53% / 0.15) 0px, transparent 50%),
-                      radial-gradient(at 0% 100%, hsl(142 76% 36% / 0.1) 0px, transparent 50%);
+                      radial-gradient(at 0% 100%, hsl(340 100% 85% / 0.3) 0px, transparent 50%);
     --stripe-pattern: repeating-linear-gradient(
       -45deg,
-      hsl(210 100% 97%),
-      hsl(210 100% 97%) 30px,
-      hsl(221 83% 53% / 0.04) 30px,
-      hsl(221 83% 53% / 0.04) 60px,
-      hsl(258 90% 66% / 0.03) 60px,
-      hsl(258 90% 66% / 0.03) 90px
+      hsl(340 100% 96%),
+      hsl(340 100% 96%) 30px,
+      hsl(340 100% 92% / 0.5) 30px,
+      hsl(340 100% 92% / 0.5) 60px,
+      hsl(258 90% 66% / 0.04) 60px,
+      hsl(258 90% 66% / 0.04) 90px
     );
     
     /* Shadows */
@@ -158,7 +158,7 @@ All colors MUST be HSL.
     height: 100%;
     background: radial-gradient(circle at 20% 50%, hsl(221 83% 53% / 0.08) 0%, transparent 50%),
                 radial-gradient(circle at 80% 80%, hsl(258 90% 66% / 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 40% 80%, hsl(25 95% 53% / 0.06) 0%, transparent 50%);
+                radial-gradient(circle at 40% 80%, hsl(340 100% 85% / 0.15) 0%, transparent 50%);
     pointer-events: none;
     z-index: -1;
     animation: subtle-pulse 15s ease-in-out infinite;
