@@ -102,6 +102,14 @@ export default {
             transform: "translateY(-10px)"
           }
         },
+        "gradient-shift": {
+          "0%, 100%": {
+            backgroundPosition: "0% 50%"
+          },
+          "50%": {
+            backgroundPosition: "100% 50%"
+          }
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -109,6 +117,7 @@ export default {
         "fade-in": "fade-in 0.6s ease-out",
         "slide-in-left": "slide-in-left 0.5s ease-out",
         "float": "float 3s ease-in-out infinite",
+        "gradient-shift": "gradient-shift 8s ease infinite",
       },
     },
   },
