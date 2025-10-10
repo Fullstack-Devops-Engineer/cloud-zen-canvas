@@ -312,36 +312,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Learning Resources */}
-      <section className="py-16 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-4xl font-bold mb-3 text-foreground">Learning Resources</h2>
-            <p className="text-lg text-muted-foreground">Check out my educational content on YouTube</p>
-            <div className="w-24 h-1 bg-gradient-secondary mx-auto rounded-full mt-4"></div>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { title: "Linux Tutorials", url: "https://youtube.com/playlist?linux" },
-              { title: "Jenkins CI/CD", url: "https://youtube.com/playlist?jenkins" },
-              { title: "Azure Cloud", url: "https://youtube.com/playlist?azure" },
-              { title: "AWS Cloud", url: "https://youtube.com/playlist?aws" }
-            ].map((resource, index) => (
-              <Card 
-                key={index}
-                className="glass-effect shadow-card p-6 hover:shadow-elevated transition-smooth animate-fade-in text-center cursor-pointer group"
-                onClick={() => window.open(resource.url, '_blank')}
-              >
-                <Youtube className="w-12 h-12 text-secondary mx-auto mb-4 group-hover:animate-float" />
-                <h3 className="text-lg font-bold text-foreground">{resource.title}</h3>
-                <p className="text-sm text-muted-foreground mt-2">Watch Playlist →</p>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="py-8 px-4 bg-primary/5">
         <div className="container mx-auto max-w-6xl text-center">
