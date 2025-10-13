@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Linkedin, Youtube, Award, Briefcase, GraduationCap, User, Code2, Cloud, Database, Server, Shield, GitBranch, Container, Monitor } from "lucide-react";
+import { Mail, MapPin, Phone, Linkedin, Award, Briefcase, GraduationCap, User, Code2, Cloud, Database, Server, Shield, GitBranch, Container, Monitor } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -99,15 +99,6 @@ const Index = () => {
               >
                 <Linkedin className="w-5 h-5 mr-2" />
                 LinkedIn
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="bg-white/20 hover:bg-white/30 text-white border-white/40"
-                onClick={() => window.open('https://youtube.com/@cloudyops', '_blank')}
-              >
-                <Youtube className="w-5 h-5 mr-2" />
-                YouTube
               </Button>
             </div>
           </div>
