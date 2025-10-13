@@ -65,6 +65,16 @@ const Index = () => {
         "Handled server administration and maintenance",
         "Configured network systems for optimal performance"
       ]
+    },
+    {
+      company: "Telecom",
+      role: "RF Engineer",
+      period: "Jul 2015 – Jun 2016",
+      highlights: [
+        "Managed RF network infrastructure",
+        "Performed site surveys and network optimization",
+        "Configured and maintained telecommunications equipment"
+      ]
     }
   ];
 
