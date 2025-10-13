@@ -57,7 +57,7 @@ const Index = () => {
       ]
     },
     {
-      company: "Joules to Watts Business Solutions",
+      company: "JoulestoWatts Business Solutions Pvt Ltd",
       role: "Information Technology Supervisor",
       period: "Dec 2017 – Jun 2018",
       highlights: [
