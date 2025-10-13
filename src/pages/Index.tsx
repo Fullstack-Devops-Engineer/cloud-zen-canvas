@@ -55,6 +55,16 @@ const Index = () => {
         "Migrated on-premise VMs to AWS cloud",
         "Deployed web applications in Docker containers"
       ]
+    },
+    {
+      company: "Joules to Watts IT",
+      role: "Supervisor",
+      period: "Dec 2017 – Jun 2018",
+      highlights: [
+        "Managed networking infrastructure and server configurations",
+        "Handled server administration and maintenance",
+        "Configured network systems for optimal performance"
+      ]
     }
   ];
 
