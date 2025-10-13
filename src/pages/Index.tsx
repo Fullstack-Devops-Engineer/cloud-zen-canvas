@@ -114,7 +114,7 @@ const Index = () => {
               <h2 className="text-3xl font-bold text-foreground">Professional Summary</h2>
             </div>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              AWS Certified Solutions Architect – Associate with <span className="font-semibold text-primary">5+ years of experience</span> in designing, 
+              AWS Certified Solutions Architect – Associate with <span className="font-semibold text-primary">6+ years of experience</span> in designing, 
               managing, and optimizing AWS, Azure, and OpenStack cloud environments. Proficient in 
               cloud infrastructure management, automation, performance monitoring, and cost 
               optimization. Seeking to leverage cloud architecture expertise and automation skills in a 
