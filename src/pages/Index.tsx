@@ -67,7 +67,7 @@ const Index = () => {
       ]
     },
     {
-      company: "Telecom",
+      company: "Integrated Wireless Solutions",
       role: "RF Engineer",
       period: "Jul 2015 – Jun 2016",
       highlights: [
