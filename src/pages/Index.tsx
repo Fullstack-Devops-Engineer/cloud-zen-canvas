@@ -58,7 +58,7 @@ const Index = () => {
     },
     {
       company: "Joules to Watts IT",
-      role: "Supervisor",
+      role: "Information Technology Supervisor",
       period: "Dec 2017 – Jun 2018",
       highlights: [
         "Managed networking infrastructure and server configurations",
