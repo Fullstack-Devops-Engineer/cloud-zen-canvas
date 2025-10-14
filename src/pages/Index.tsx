@@ -1,10 +1,8 @@
 import { Mail, MapPin, Phone, Linkedin, Award, Briefcase, GraduationCap, User, Code2, Cloud, Database, Server, Shield, GitBranch, Container, Monitor, Youtube, Download } from "lucide-react";
 import awsLogo from "@/assets/aws-logo.png";
 import azureLogo from "@/assets/azure-logo.png";
-import prometheusLogo from "@/assets/prometheus-logo.png";
-import grafanaLogo from "@/assets/grafana-logo.png";
 import dockerLogo from "@/assets/docker-logo.png";
-import kubernetesLogo from "@/assets/kubernetes-logo.png";
+import terraformLogo from "@/assets/terraform-logo.png";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -90,14 +88,14 @@ const Index = () => {
       <section className="relative py-20 px-4 overflow-hidden">
         <div className="absolute inset-0 gradient-hero opacity-90"></div>
         
-        {/* Real DevOps Tool Logos */}
+        {/* DevOps Tool Logos */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img src={awsLogo} alt="AWS" className="absolute top-20 left-10 w-20 h-20 opacity-70 animate-float" />
-          <img src={azureLogo} alt="Azure" className="absolute top-40 right-20 w-16 h-16 opacity-60 animate-float-delayed" />
-          <img src={prometheusLogo} alt="Prometheus" className="absolute bottom-40 left-20 w-16 h-16 opacity-50 animate-float-delayed-2" />
-          <img src={grafanaLogo} alt="Grafana" className="absolute top-60 right-40 w-20 h-20 opacity-60 animate-float" />
-          <img src={dockerLogo} alt="Docker" className="absolute bottom-20 right-10 w-16 h-16 opacity-70 animate-float-delayed" />
-          <img src={kubernetesLogo} alt="Kubernetes" className="absolute bottom-32 left-1/3 w-16 h-16 opacity-60 animate-float-delayed-2" />
+          <img src={awsLogo} alt="AWS" className="absolute top-20 left-10 w-24 h-24 opacity-80 animate-float" />
+          <img src={azureLogo} alt="Azure" className="absolute top-40 right-20 w-20 h-20 opacity-70 animate-float-delayed" />
+          <img src={dockerLogo} alt="Docker" className="absolute bottom-20 right-10 w-20 h-20 opacity-80 animate-float-delayed-2" />
+          <img src={terraformLogo} alt="Terraform" className="absolute bottom-40 left-20 w-20 h-20 opacity-70 animate-float" />
+          <img src={awsLogo} alt="AWS" className="absolute bottom-32 right-1/3 w-16 h-16 opacity-60 animate-float-delayed" />
+          <img src={dockerLogo} alt="Docker" className="absolute top-60 left-1/3 w-18 h-18 opacity-65 animate-float-delayed-2" />
         </div>
         
         <div className="container mx-auto max-w-6xl relative z-10">
@@ -131,26 +129,26 @@ const Index = () => {
               <Button 
                 variant="secondary" 
                 size="lg" 
-                className="shadow-elevated hover:scale-110 transition-all duration-300 animate-slide-up"
+                className="shadow-elevated hover:scale-110 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 animate-slide-up group"
                 onClick={() => window.open('https://linkedin.com/in/vinothrajr', '_blank')}
               >
-                <Linkedin className="w-5 h-5 mr-2" />
+                <Linkedin className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" />
                 LinkedIn
               </Button>
               <Button 
                 variant="secondary" 
                 size="lg" 
-                className="shadow-elevated bg-red-600 hover:bg-red-700 hover:scale-110 text-white border-red-600 transition-all duration-300 animate-slide-up"
+                className="shadow-elevated bg-red-600 hover:bg-red-700 hover:scale-110 hover:shadow-2xl hover:-translate-y-1 text-white border-red-600 transition-all duration-500 animate-slide-up group"
                 style={{ animationDelay: '0.1s' }}
                 onClick={() => window.open('https://www.youtube.com/@cloudyops/videos', '_blank')}
               >
-                <Youtube className="w-5 h-5 mr-2" />
+                <Youtube className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" />
                 YouTube
               </Button>
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="shadow-elevated bg-pink-500 hover:bg-pink-600 text-white border-pink-500 animate-pulse-pink animate-slide-up"
+                className="shadow-elevated bg-pink-500 hover:bg-pink-600 text-white border-pink-500 hover:scale-110 hover:shadow-2xl hover:-translate-y-1 animate-pulse-pink animate-slide-up transition-all duration-500 group"
                 style={{ animationDelay: '0.2s' }}
                 onClick={() => {
                   const link = document.createElement('a');
@@ -159,7 +157,7 @@ const Index = () => {
                   link.click();
                 }}
               >
-                <Download className="w-5 h-5 mr-2" />
+                <Download className="w-5 h-5 mr-2 group-hover:animate-bounce" />
                 Download Resume
               </Button>
             </div>
