@@ -83,6 +83,18 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative py-20 px-4 overflow-hidden">
         <div className="absolute inset-0 gradient-hero opacity-90"></div>
+        
+        {/* Floating DevOps Tool Icons */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <Cloud className="absolute top-20 left-10 w-16 h-16 text-blue-400 opacity-60 animate-float" />
+          <Server className="absolute top-40 right-20 w-14 h-14 text-blue-300 opacity-50 animate-float-delayed" />
+          <Database className="absolute bottom-40 left-20 w-12 h-12 text-blue-500 opacity-40 animate-float-delayed-2" />
+          <Container className="absolute top-60 right-40 w-16 h-16 text-blue-400 opacity-50 animate-float" />
+          <Monitor className="absolute bottom-20 right-10 w-14 h-14 text-blue-300 opacity-60 animate-float-delayed" />
+          <GitBranch className="absolute top-32 left-1/3 w-12 h-12 text-blue-500 opacity-40 animate-float-delayed-2" />
+          <Shield className="absolute bottom-32 right-1/3 w-14 h-14 text-blue-400 opacity-50 animate-float" />
+        </div>
+        
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="text-center text-white animate-fade-in">
             <div className="inline-block mb-4">
@@ -90,7 +102,7 @@ const Index = () => {
                 AWS Certified Solutions Architect
               </Badge>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold mb-4">
+            <h1 className="text-5xl md:text-7xl font-bold mb-4 text-blue-400">
               VINOTHRAJ R
             </h1>
             <p className="text-2xl md:text-3xl mb-6 text-white/90 font-medium">
@@ -132,7 +144,7 @@ const Index = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="shadow-elevated"
+                className="shadow-elevated bg-pink-500 hover:bg-pink-600 text-white border-pink-500 animate-pulse-pink"
                 onClick={() => {
                   const link = document.createElement('a');
                   link.href = '/Vinothraj_CloudOps_Engineer_Resume.pdf';
