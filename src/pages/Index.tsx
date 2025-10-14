@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Linkedin, Award, Briefcase, GraduationCap, User, Code2, Cloud, Database, Server, Shield, GitBranch, Container, Monitor } from "lucide-react";
+import { Mail, MapPin, Phone, Linkedin, Award, Briefcase, GraduationCap, User, Code2, Cloud, Database, Server, Shield, GitBranch, Container, Monitor, Youtube, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -119,6 +119,29 @@ const Index = () => {
               >
                 <Linkedin className="w-5 h-5 mr-2" />
                 LinkedIn
+              </Button>
+              <Button 
+                variant="secondary" 
+                size="lg" 
+                className="shadow-elevated bg-red-600 hover:bg-red-700 text-white border-red-600"
+                onClick={() => window.open('https://www.youtube.com/@cloudyops', '_blank')}
+              >
+                <Youtube className="w-5 h-5 mr-2" />
+                YouTube
+              </Button>
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="shadow-elevated"
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = '/Vinothraj_CloudOps_Engineer_Resume.pdf';
+                  link.download = 'Vinothraj_CloudOps_Engineer_Resume.pdf';
+                  link.click();
+                }}
+              >
+                <Download className="w-5 h-5 mr-2" />
+                Download Resume
               </Button>
             </div>
           </div>
