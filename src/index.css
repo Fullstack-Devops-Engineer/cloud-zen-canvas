@@ -216,6 +216,21 @@ All colors MUST be HSL.
   .animate-pulse-pink {
     animation: pulse-pink 2s ease-in-out infinite;
   }
+  
+  @keyframes slide-up {
+    0% {
+      transform: translateY(10px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slide-up {
+    animation: slide-up 0.6s ease-out forwards;
+  }
 }
 
 @layer utilities {

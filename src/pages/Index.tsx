@@ -1,4 +1,10 @@
 import { Mail, MapPin, Phone, Linkedin, Award, Briefcase, GraduationCap, User, Code2, Cloud, Database, Server, Shield, GitBranch, Container, Monitor, Youtube, Download } from "lucide-react";
+import awsLogo from "@/assets/aws-logo.png";
+import azureLogo from "@/assets/azure-logo.png";
+import prometheusLogo from "@/assets/prometheus-logo.png";
+import grafanaLogo from "@/assets/grafana-logo.png";
+import dockerLogo from "@/assets/docker-logo.png";
+import kubernetesLogo from "@/assets/kubernetes-logo.png";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -84,15 +90,14 @@ const Index = () => {
       <section className="relative py-20 px-4 overflow-hidden">
         <div className="absolute inset-0 gradient-hero opacity-90"></div>
         
-        {/* Floating DevOps Tool Icons */}
+        {/* Real DevOps Tool Logos */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <Cloud className="absolute top-20 left-10 w-16 h-16 text-blue-400 opacity-60 animate-float" />
-          <Server className="absolute top-40 right-20 w-14 h-14 text-blue-300 opacity-50 animate-float-delayed" />
-          <Database className="absolute bottom-40 left-20 w-12 h-12 text-blue-500 opacity-40 animate-float-delayed-2" />
-          <Container className="absolute top-60 right-40 w-16 h-16 text-blue-400 opacity-50 animate-float" />
-          <Monitor className="absolute bottom-20 right-10 w-14 h-14 text-blue-300 opacity-60 animate-float-delayed" />
-          <GitBranch className="absolute top-32 left-1/3 w-12 h-12 text-blue-500 opacity-40 animate-float-delayed-2" />
-          <Shield className="absolute bottom-32 right-1/3 w-14 h-14 text-blue-400 opacity-50 animate-float" />
+          <img src={awsLogo} alt="AWS" className="absolute top-20 left-10 w-20 h-20 opacity-70 animate-float" />
+          <img src={azureLogo} alt="Azure" className="absolute top-40 right-20 w-16 h-16 opacity-60 animate-float-delayed" />
+          <img src={prometheusLogo} alt="Prometheus" className="absolute bottom-40 left-20 w-16 h-16 opacity-50 animate-float-delayed-2" />
+          <img src={grafanaLogo} alt="Grafana" className="absolute top-60 right-40 w-20 h-20 opacity-60 animate-float" />
+          <img src={dockerLogo} alt="Docker" className="absolute bottom-20 right-10 w-16 h-16 opacity-70 animate-float-delayed" />
+          <img src={kubernetesLogo} alt="Kubernetes" className="absolute bottom-32 left-1/3 w-16 h-16 opacity-60 animate-float-delayed-2" />
         </div>
         
         <div className="container mx-auto max-w-6xl relative z-10">
@@ -102,7 +107,7 @@ const Index = () => {
                 AWS Certified Solutions Architect
               </Badge>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold mb-4 text-blue-400">
+            <h1 className="text-5xl md:text-7xl font-bold mb-4 text-white drop-shadow-[0_2px_10px_rgba(255,255,255,0.5)]">
               VINOTHRAJ R
             </h1>
             <p className="text-2xl md:text-3xl mb-6 text-white/90 font-medium">
@@ -126,7 +131,7 @@ const Index = () => {
               <Button 
                 variant="secondary" 
                 size="lg" 
-                className="shadow-elevated"
+                className="shadow-elevated hover:scale-110 transition-all duration-300 animate-slide-up"
                 onClick={() => window.open('https://linkedin.com/in/vinothrajr', '_blank')}
               >
                 <Linkedin className="w-5 h-5 mr-2" />
@@ -135,8 +140,9 @@ const Index = () => {
               <Button 
                 variant="secondary" 
                 size="lg" 
-                className="shadow-elevated bg-red-600 hover:bg-red-700 text-white border-red-600"
-                onClick={() => window.open('https://www.youtube.com/@cloudyops', '_blank')}
+                className="shadow-elevated bg-red-600 hover:bg-red-700 hover:scale-110 text-white border-red-600 transition-all duration-300 animate-slide-up"
+                style={{ animationDelay: '0.1s' }}
+                onClick={() => window.open('https://www.youtube.com/@cloudyops/videos', '_blank')}
               >
                 <Youtube className="w-5 h-5 mr-2" />
                 YouTube
@@ -144,7 +150,8 @@ const Index = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="shadow-elevated bg-pink-500 hover:bg-pink-600 text-white border-pink-500 animate-pulse-pink"
+                className="shadow-elevated bg-pink-500 hover:bg-pink-600 text-white border-pink-500 animate-pulse-pink animate-slide-up"
+                style={{ animationDelay: '0.2s' }}
                 onClick={() => {
                   const link = document.createElement('a');
                   link.href = '/Vinothraj_CloudOps_Engineer_Resume.pdf';
