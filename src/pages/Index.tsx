@@ -140,7 +140,7 @@ const Index = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="shadow-elevated bg-pink-500 hover:bg-pink-600 text-white border-pink-500 animate-slow-blink"
+                className="shadow-elevated bg-pink-500 hover:bg-pink-600 hover:scale-110 text-white border-pink-500 animate-slow-blink"
                 style={{ animationDelay: '0.6s' }}
                 onClick={() => {
                   const link = document.createElement('a');
