@@ -92,12 +92,12 @@ const Index = () => {
         
         {/* Real DevOps Tool Logos */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img src={awsLogo} alt="AWS" className="absolute top-20 left-10 w-20 h-20 opacity-70 animate-float" />
-          <img src={azureLogo} alt="Azure" className="absolute top-40 right-20 w-16 h-16 opacity-60 animate-float-delayed" />
-          <img src={prometheusLogo} alt="Prometheus" className="absolute bottom-40 left-20 w-16 h-16 opacity-50 animate-float-delayed-2" />
-          <img src={grafanaLogo} alt="Grafana" className="absolute top-60 right-40 w-20 h-20 opacity-60 animate-float" />
-          <img src={dockerLogo} alt="Docker" className="absolute bottom-20 right-10 w-16 h-16 opacity-70 animate-float-delayed" />
-          <img src={kubernetesLogo} alt="Kubernetes" className="absolute bottom-32 left-1/3 w-16 h-16 opacity-60 animate-float-delayed-2" />
+          <img src={awsLogo} alt="AWS" className="absolute top-20 left-10 w-20 h-20 opacity-70" />
+          <img src={azureLogo} alt="Azure" className="absolute top-40 right-20 w-16 h-16 opacity-60" />
+          <img src={prometheusLogo} alt="Prometheus" className="absolute bottom-40 left-20 w-16 h-16 opacity-50" />
+          <img src={grafanaLogo} alt="Grafana" className="absolute top-60 right-40 w-20 h-20 opacity-60" />
+          <img src={dockerLogo} alt="Docker" className="absolute bottom-20 right-10 w-16 h-16 opacity-70" />
+          <img src={kubernetesLogo} alt="Kubernetes" className="absolute bottom-32 left-1/3 w-16 h-16 opacity-60" />
         </div>
         
         <div className="container mx-auto max-w-6xl relative z-10">
