@@ -97,7 +97,7 @@ const Index = () => {
                 AWS Certified Solutions Architect
               </Badge>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-gray-900 via-white to-gray-900 bg-clip-text text-transparent dark:from-white dark:via-gray-300 dark:to-white">
+            <h1 className="text-5xl md:text-7xl font-bold mb-4 text-yellow-500">
               VINOTHRAJ R
             </h1>
             <p className="text-2xl md:text-3xl mb-6 text-white/90 font-medium">
