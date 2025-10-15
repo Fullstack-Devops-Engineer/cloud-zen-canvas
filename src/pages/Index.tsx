@@ -97,7 +97,7 @@ const Index = () => {
                 AWS Certified Solutions Architect
               </Badge>
             </div>
-            <h1 className="text-5xl md:text-7xl font-bold mb-4 text-blue-500">
+            <h1 className="text-5xl md:text-7xl font-bold mb-4 text-yellow-400">
               VINOTHRAJ R
             </h1>
             <p className="text-2xl md:text-3xl mb-6 text-white/90 font-medium">
@@ -121,7 +121,7 @@ const Index = () => {
               <Button 
                 variant="secondary" 
                 size="lg" 
-                className="shadow-elevated hover:scale-110 transition-all duration-300 animate-slide-up"
+                className="shadow-elevated hover:scale-110 transition-all duration-300 animate-slide-up animate-pulse"
                 onClick={() => window.open('https://linkedin.com/in/vinothrajr', '_blank')}
               >
                 <Linkedin className="w-5 h-5 mr-2" />
@@ -130,7 +130,7 @@ const Index = () => {
               <Button 
                 variant="secondary" 
                 size="lg" 
-                className="shadow-elevated bg-red-600 hover:bg-red-700 hover:scale-110 text-white border-red-600 transition-all duration-300 animate-slide-up"
+                className="shadow-elevated bg-red-600 hover:bg-red-700 hover:scale-110 text-white border-red-600 transition-all duration-300 animate-slide-up animate-pulse"
                 style={{ animationDelay: '0.1s' }}
                 onClick={() => window.open('https://www.youtube.com/@cloudyops/videos', '_blank')}
               >
@@ -140,7 +140,7 @@ const Index = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="shadow-elevated bg-pink-500 hover:bg-pink-600 text-white border-pink-500 animate-pulse-pink animate-slide-up"
+                className="shadow-elevated bg-pink-500 hover:bg-pink-600 text-white border-pink-500 animate-pulse-pink animate-slide-up animate-pulse"
                 style={{ animationDelay: '0.2s' }}
                 onClick={() => {
                   const link = document.createElement('a');
