@@ -121,7 +121,7 @@ const Index = () => {
               <Button 
                 variant="secondary" 
                 size="lg" 
-                className="shadow-elevated hover:scale-110 transition-all duration-300 animate-slide-up animate-pulse"
+                className="shadow-elevated hover:scale-110 transition-all duration-300 animate-slow-blink"
                 onClick={() => window.open('https://linkedin.com/in/vinothrajr', '_blank')}
               >
                 <Linkedin className="w-5 h-5 mr-2" />
@@ -130,8 +130,8 @@ const Index = () => {
               <Button 
                 variant="secondary" 
                 size="lg" 
-                className="shadow-elevated bg-red-600 hover:bg-red-700 hover:scale-110 text-white border-red-600 transition-all duration-300 animate-slide-up animate-pulse"
-                style={{ animationDelay: '0.1s' }}
+                className="shadow-elevated bg-red-600 hover:bg-red-700 hover:scale-110 text-white border-red-600 transition-all duration-300 animate-slow-blink"
+                style={{ animationDelay: '0.3s' }}
                 onClick={() => window.open('https://www.youtube.com/@cloudyops/videos', '_blank')}
               >
                 <Youtube className="w-5 h-5 mr-2" />
@@ -140,8 +140,8 @@ const Index = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="shadow-elevated bg-pink-500 hover:bg-pink-600 text-white border-pink-500 animate-pulse-pink animate-slide-up animate-pulse"
-                style={{ animationDelay: '0.2s' }}
+                className="shadow-elevated bg-pink-500 hover:bg-pink-600 text-white border-pink-500 animate-slow-blink"
+                style={{ animationDelay: '0.6s' }}
                 onClick={() => {
                   const link = document.createElement('a');
                   link.href = '/Vinothraj_CloudOps_Engineer_Resume.pdf';
