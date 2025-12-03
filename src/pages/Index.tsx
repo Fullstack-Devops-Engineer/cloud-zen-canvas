@@ -63,16 +63,6 @@ const Index = () => {
       ]
     },
     {
-      company: "JoulestoWatts Business Solutions Pvt Ltd",
-      role: "Information Technology Supervisor",
-      period: "Dec 2017 – Jun 2018",
-      highlights: [
-        "Managed networking infrastructure and server configurations",
-        "Handled server administration and maintenance",
-        "Configured network systems for optimal performance"
-      ]
-    },
-    {
       company: "Integrated Wireless Solutions",
       role: "RF Engineer",
       period: "Jul 2015 – Jun 2016",
